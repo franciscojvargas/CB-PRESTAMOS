@@ -16,7 +16,7 @@ public class CrearSolicitudPrestamoDTO {
     private BigDecimal importeSolicitado;
 
     @NotBlank(message = "La divisa es obligatoria")
-    @Pattern(regexp = "^[A-Z]{3}$", message = "La divisa debe ser un código de 3 letras (ej: EUR, USD)")
+    @Pattern(regexp = "^[A-Z]{3}$", message = "La divisa debe ser un código de 3 letras en mayúsculas (ej: EUR, USD)")
     private String divisa;
 
     @NotBlank(message = "El documento identificativo es obligatorio")
