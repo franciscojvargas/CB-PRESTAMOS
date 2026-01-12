@@ -18,10 +18,10 @@ La API gestiona los siguientes estados:
 
 ### Reglas de Transición
 
-1. **PENDIENTE** --> **APROBADA**
-2. **PENDIENTE** --> **RECHAZADA**
-3. **APROBADA** --> **CANCELADA**
-4. Cualquier otra transición --> Error 400
+1. **PENDIENTE** -> **APROBADA**
+2. **PENDIENTE** -> **RECHAZADA**
+3. **APROBADA** -> **CANCELADA**
+4. Cualquier otra transición -> Error 400
 
 Los estados **RECHAZADA** y **CANCELADA** son estados finales y no pueden ser modificados.
 
